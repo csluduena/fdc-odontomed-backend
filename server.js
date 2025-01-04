@@ -14,7 +14,7 @@ import listasMaestrasRouter from "./routes/listasMaestras.js";
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 5005;
+const PORT = process.env.PORT || 5003;
 
 // Log del inicio del servidor
 console.log("Iniciando servidor en puerto:", PORT);
